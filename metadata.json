@@ -1,0 +1,8 @@
+{
+  "name": "Ferdinandos Barbershop",
+  "description": "Κλασικό Μπαρμπέρικο στα Ιωάννινα - Φερδινάνδος. Παραδοσιακή ανδρική περιποίηση, κούρεμα και ξύρισμα με φαλτσέτα. Μέτσοβου 12, Τ.Κ. 452 21.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

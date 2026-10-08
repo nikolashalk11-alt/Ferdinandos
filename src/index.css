@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --radius-xs: 2px;
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+  --radius-xl: 4px;
+  --radius-2xl: 4px;
+}
+
+@layer base {
+  :root {
+    --color-cream: #FAF7F2;
+    --color-cream-subtle: #F3ECE2;
+    --color-brown: #B88A58;
+    --color-brown-dark: #82582E;
+    --color-brown-light: #E7DCce;
+    --color-gold: #B88A58;
+    --color-ink: #2A221B;
+  }
+}
+
+.font-vintage {
+  font-family: 'GFS Didot', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-serif-vintage {
+  font-family: 'Cormorant Garamond', 'GFS Didot', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-script {
+  font-family: 'Alex Brush', cursive, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Hide scrollbar across all browsers while preserving scroll functionality */
+html,
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
